@@ -1,0 +1,339 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:6:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:installLocation
+		ADDED from AndroidManifest.xml:4:5
+uses-sdk
+ADDED from AndroidManifest.xml:8:5
+MERGED from nsit-app1:pullToRefresh:unspecified:7:5
+MERGED from com.actionbarsherlock:actionbarsherlock:4.4.0:3:3
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from net.simonvt.menudrawer:menudrawer:3.0.6:3:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:10:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.READ_CALENDAR
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+application
+ADDED from AndroidManifest.xml:24:5
+MERGED from nsit-app1:pullToRefresh:unspecified:9:5
+MERGED from nsit-app1:main:unspecified:7:5
+MERGED from com.actionbarsherlock:actionbarsherlock:4.4.0:4:3
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:27:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:25:9
+	android:icon
+		ADDED from AndroidManifest.xml:26:9
+	android:hardwareAccelerated
+		ADDED from nsit-app1:main:unspecified:9:9
+	android:theme
+		ADDED from AndroidManifest.xml:29:9
+	android:largeHeap
+		ADDED from AndroidManifest.xml:28:9
+activity#com.example.nsitapp.MainActivity
+ADDED from AndroidManifest.xml:30:9
+	android:label
+		ADDED from AndroidManifest.xml:32:13
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+intent-filter#android.intent.action.splash+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:33:13
+action#android.intent.action.splash
+ADDED from AndroidManifest.xml:34:17
+	android:name
+		ADDED from AndroidManifest.xml:34:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:36:17
+	android:name
+		ADDED from AndroidManifest.xml:36:27
+activity#com.example.nsitapp.PlayVideo
+ADDED from AndroidManifest.xml:39:9
+	android:label
+		ADDED from AndroidManifest.xml:41:13
+	android:name
+		ADDED from AndroidManifest.xml:40:13
+intent-filter#android.intent.action.play+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:42:13
+action#android.intent.action.play
+ADDED from AndroidManifest.xml:43:17
+	android:name
+		ADDED from AndroidManifest.xml:43:25
+activity#com.example.nsitapp.SampleActivity
+ADDED from AndroidManifest.xml:48:9
+	android:label
+		ADDED from AndroidManifest.xml:50:13
+	android:name
+		ADDED from AndroidManifest.xml:49:13
+intent-filter#android.intent.action.item1+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:51:13
+action#android.intent.action.item1
+ADDED from AndroidManifest.xml:52:17
+	android:name
+		ADDED from AndroidManifest.xml:52:25
+activity#com.example.nsitapp.MenuActivity
+ADDED from AndroidManifest.xml:57:9
+	android:label
+		ADDED from AndroidManifest.xml:59:13
+	android:name
+		ADDED from AndroidManifest.xml:58:13
+intent-filter#android.intent.action.menuactivity+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:60:13
+action#android.intent.action.menuactivity
+ADDED from AndroidManifest.xml:61:17
+	android:name
+		ADDED from AndroidManifest.xml:61:25
+activity#com.example.nsitapp.SampleActionbarActivity
+ADDED from AndroidManifest.xml:66:9
+	android:label
+		ADDED from AndroidManifest.xml:68:13
+	android:name
+		ADDED from AndroidManifest.xml:67:13
+intent-filter#android.intent.action.MA+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:69:13
+action#android.intent.action.MA
+ADDED from AndroidManifest.xml:70:17
+	android:name
+		ADDED from AndroidManifest.xml:70:25
+activity#com.example.nsitapp.Timetable
+ADDED from AndroidManifest.xml:75:9
+	android:label
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+intent-filter#android.intent.action.timetable+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:78:13
+action#android.intent.action.timetable
+ADDED from AndroidManifest.xml:79:17
+	android:name
+		ADDED from AndroidManifest.xml:79:25
+activity#com.example.nsitapp.Splash
+ADDED from AndroidManifest.xml:84:9
+	android:label
+		ADDED from AndroidManifest.xml:86:13
+	android:name
+		ADDED from AndroidManifest.xml:85:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:87:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:88:17
+	android:name
+		ADDED from AndroidManifest.xml:88:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:90:17
+	android:name
+		ADDED from AndroidManifest.xml:90:27
+activity#com.example.nsitapp.ItemView
+ADDED from AndroidManifest.xml:93:9
+	android:label
+		ADDED from AndroidManifest.xml:95:13
+	android:name
+		ADDED from AndroidManifest.xml:94:13
+intent-filter#android.intent.action.item+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:96:13
+action#android.intent.action.item
+ADDED from AndroidManifest.xml:97:17
+	android:name
+		ADDED from AndroidManifest.xml:97:25
+activity#com.example.nsitapp.Prefs
+ADDED from AndroidManifest.xml:102:9
+	android:label
+		ADDED from AndroidManifest.xml:104:13
+	android:name
+		ADDED from AndroidManifest.xml:103:13
+intent-filter#android.intent.action.prefs+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:105:13
+action#android.intent.action.prefs
+ADDED from AndroidManifest.xml:106:17
+	android:name
+		ADDED from AndroidManifest.xml:106:25
+activity#com.example.nsitapp.Directory
+ADDED from AndroidManifest.xml:111:9
+	android:label
+		ADDED from AndroidManifest.xml:113:13
+	android:name
+		ADDED from AndroidManifest.xml:112:13
+intent-filter#android.intent.action.directory+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:114:13
+action#android.intent.action.directory
+ADDED from AndroidManifest.xml:115:17
+	android:name
+		ADDED from AndroidManifest.xml:115:25
+activity#com.example.nsitapp.ImageView1
+ADDED from AndroidManifest.xml:120:9
+	android:label
+		ADDED from AndroidManifest.xml:122:13
+	android:name
+		ADDED from AndroidManifest.xml:121:13
+intent-filter#android.intent.action.imageview+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:123:13
+action#android.intent.action.imageview
+ADDED from AndroidManifest.xml:124:17
+	android:name
+		ADDED from AndroidManifest.xml:124:25
+activity#com.example.nsitapp.Help
+ADDED from AndroidManifest.xml:129:9
+	android:label
+		ADDED from AndroidManifest.xml:131:13
+	android:name
+		ADDED from AndroidManifest.xml:130:13
+intent-filter#android.intent.action.help+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:132:13
+action#android.intent.action.help
+ADDED from AndroidManifest.xml:133:17
+	android:name
+		ADDED from AndroidManifest.xml:133:25
+activity#com.example.nsitapp.AboutNsit
+ADDED from AndroidManifest.xml:138:9
+	android:label
+		ADDED from AndroidManifest.xml:140:13
+	android:name
+		ADDED from AndroidManifest.xml:139:13
+intent-filter#android.intent.action.about+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:141:13
+action#android.intent.action.about
+ADDED from AndroidManifest.xml:142:17
+	android:name
+		ADDED from AndroidManifest.xml:142:25
+activity#com.example.nsitapp.Latest
+ADDED from AndroidManifest.xml:147:9
+	android:label
+		ADDED from AndroidManifest.xml:149:13
+	android:name
+		ADDED from AndroidManifest.xml:148:13
+intent-filter#android.intent.action.latest+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:150:13
+action#android.intent.action.latest
+ADDED from AndroidManifest.xml:151:17
+	android:name
+		ADDED from AndroidManifest.xml:151:25
+activity#com.example.nsitapp.Helper
+ADDED from AndroidManifest.xml:156:9
+	android:label
+		ADDED from AndroidManifest.xml:158:13
+	android:name
+		ADDED from AndroidManifest.xml:157:13
+activity#com.example.nsitapp.CanteenList
+ADDED from AndroidManifest.xml:160:9
+	android:label
+		ADDED from AndroidManifest.xml:162:13
+	android:name
+		ADDED from AndroidManifest.xml:161:13
+intent-filter#android.intent.action.Canteen+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:163:13
+action#android.intent.action.Canteen
+ADDED from AndroidManifest.xml:164:17
+	android:name
+		ADDED from AndroidManifest.xml:164:25
+activity#com.example.nsitapp.CanteenView
+ADDED from AndroidManifest.xml:169:9
+	android:label
+		ADDED from AndroidManifest.xml:171:13
+	android:name
+		ADDED from AndroidManifest.xml:170:13
+activity#com.example.nsitapp.CanteenMenuView
+ADDED from AndroidManifest.xml:173:9
+	android:label
+		ADDED from AndroidManifest.xml:175:13
+	android:name
+		ADDED from AndroidManifest.xml:174:13
+activity#com.example.nsitapp.Societies
+ADDED from AndroidManifest.xml:177:9
+	android:label
+		ADDED from AndroidManifest.xml:179:13
+	android:name
+		ADDED from AndroidManifest.xml:178:13
+intent-filter#android.intent.action.Societies+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:180:13
+action#android.intent.action.Societies
+ADDED from AndroidManifest.xml:181:17
+	android:name
+		ADDED from AndroidManifest.xml:181:25
+activity#com.example.nsitapp.VideoActivity
+ADDED from AndroidManifest.xml:186:9
+	android:label
+		ADDED from AndroidManifest.xml:188:13
+	android:name
+		ADDED from AndroidManifest.xml:187:13
+intent-filter#android.intent.action.videoactivity+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:189:13
+action#android.intent.action.videoactivity
+ADDED from AndroidManifest.xml:190:17
+	android:name
+		ADDED from AndroidManifest.xml:190:25
+service#com.example.nsitapp.UpdaterService
+ADDED from AndroidManifest.xml:195:9
+	android:name
+		ADDED from AndroidManifest.xml:195:18
+receiver#com.example.nsitapp.ConnectivityChangeReceiver
+ADDED from AndroidManifest.xml:198:9
+	android:name
+		ADDED from AndroidManifest.xml:198:19
+intent-filter#android.intent.action.BOOT_COMPLETED+android.net.wifi.WIFI_STATE_CHANGED
+ADDED from AndroidManifest.xml:199:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:200:17
+	android:name
+		ADDED from AndroidManifest.xml:200:25
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from AndroidManifest.xml:201:17
+	android:name
+		ADDED from AndroidManifest.xml:201:25
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from AndroidManifest.xml:2:1 reason: uk.co.senab.photoview has a targetSdkVersion < 4

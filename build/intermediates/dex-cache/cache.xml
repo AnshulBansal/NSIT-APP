@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/exploded-aar/net.simonvt.menudrawer/menudrawer/3.0.6/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6c43e8970e14e22ed8ea6bee207b27829422d516">
+        <dex dex="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/pre-dexed/debug/classes-0e3471e44778a5627bc2aeb6aae1ade7633fa5bc.jar" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/exploded-aar/nsit-app1/pullToRefresh/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5cdcf7cce3e728c1bc37ca4b47fa135d8715f391">
+        <dex dex="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/pre-dexed/debug/classes-42c59aab4ab0938aaf2d932b2818d74a243dce9a.jar" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-3ef0f7a172cf85f7d0dc1406d8b1dd4c7225bc58.jar" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="29ccfbddf99584bddbaab62c0cf50dcd1c564e43">
+        <dex dex="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-431262fdaf1399b29151ac7e4ba4d7cfbee9123e.jar" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/libs/com-oDpXiC-gCTtQo145234.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e5c1c984ad51bea4184139d3109247b8ac154b36">
+        <dex dex="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/pre-dexed/debug/com-oDpXiC-gCTtQo145234-7eb5b80874dee6e874e787ae77e1255f77e27e1b.jar" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/pre-dexed/debug/classes-8a3ddef472b56b386a04c15b60e64b221e3042c8.jar" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/exploded-aar/nsit-app1/main/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="304918a599220e3f272941eea0617c6ea1d08519">
+        <dex dex="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/pre-dexed/debug/classes-bcd0b4b57e297fd9b4e032a3dca328c1602b04a2.jar" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/pre-dexed/debug/classes-0ce01bf5fa9049777de45172fb5b8c0e4ca3d8dc.jar" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-782f081c650263e8758f6a126187fc5e24cc8135.jar" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/exploded-aar/nsit-app1/showcase/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="968bd6177add4002a7431077a5b99c83a936a086">
+        <dex dex="/home/anshul/AndroidStudioProjects/nsit-app1/nsitApp/build/intermediates/pre-dexed/debug/classes-5011695e99a92b66ab28b7c1d978943c26360c79.jar" />
+    </item>
+
+</items>

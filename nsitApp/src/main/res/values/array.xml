@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list">
+        <item>Debating Soicety of Nsit</item>
+        <item>Junoon</item>
+        <item>Quiz Club of Nsit</item>
+      
+    </string-array>
+   <string-array name="Lvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        
+    </string-array>
+     <string-array name="Yearlist">
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+      <item>4th year</item>
+    </string-array>
+   <string-array name="yearvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="branchlist">
+        <item>COE</item>
+        <item>ECE</item>
+        <item>IT</item>
+      <item>ICE</item>
+      <item>MPAE</item>
+      <item>BT</item>
+   
+     </string-array>
+       <string-array name="branchvalues">
+        <item>COE</item>
+        <item>ECE</item>
+        <item>IT</item>
+      <item>ICE</item>
+      <item>MPAE</item>
+      <item>BT</item>
+   
+     </string-array>
+     <string-array name="sectionlist">
+        <item>Section 1</item>
+        <item>Section 2</item>
+        <item>Section 3</item>
+      
+    </string-array>
+   <string-array name="sectionvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        </string-array>
+    
+     <string-array name="activitylist">
+        <item>News</item>
+        <item>TimeTable</item>
+        <item>Help</item>
+      
+    </string-array>
+   <string-array name="activityvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        </string-array>
+     
+
+    <string-array name="AutoUpdateTime">
+        <item>1 hour</item>
+        <item>3 hour</item>
+        <item>6 hour</item>
+        <item>12 hour</item>
+        <item>24 hour</item>
+    </string-array>
+    <string-array name="Timevalues">
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+    </string-array>
+
+
+</resources>

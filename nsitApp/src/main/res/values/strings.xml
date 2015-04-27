@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NSIT App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string-array name="canteens">
+        <item>Zayca Canteen</item>
+        <item>Mic-Mac</item>
+        <item>Mini Zayca</item>
+        <item>McCain</item>
+        <item>Just Cafe</item>
+    </string-array>
+
+    <string-array name="canteens_desc">
+        <item>The Zayca Canteen lately holds  the crown of being the best food court in the NSIT Campus. Stellar food, excellent service and neat conditions rightfully earns it the title. The Zayca has a wide menu of food items ranging anywhere from mouth watering chinese chicken noodles to ekdum desi cholle bhature. This food court is loved by NSITiians, most of the time it becomes very hard to even get a seat and have a hearty meal. If you want to taste the best of NSIT, look no further than THE Zayca.</item>
+        <item>Situated right alongside parking lot and conveniently close to the admin, it\'s hard to miss this openly designed canteen. With it\'s large array of inventory, it\'s the only meaningful competitor to the Zayca. However, sitting in the open makes your food very prone to annoying flies and uninvited stray dogs. But still, the quality of food and good location sometimes makes it a viable alternative to the Zayca.</item>
+        <item>This canteen remains true to its name. It has a small menu, small number of seats, but acts nothing short of a takeaway restaurant. Unlike the top two, it\'s always possible to get your order, most possibly a quick burger, or a tiny pack of juice, to pacify your tummy. Similar to Mic Mac, its situated in front of the central parking lot and close to the admin, thus provides easy accessibility. Also, alike Mic Mac, customers can sit out in the open to have a peaceful meal or a joyful get-together.</item>
+        <item>Opened recently in August of 2013, it\'s even smaller than Mini Zayca both in terms of size and menu. But the thing that makes it so special is it\'s perfect placement near the isolated hostels, hence making it the most ideal food court for hostellers. It may not boast of an extravagant inventory, but it has enough to take care of a midnight stomach craving or an occasional respite from the hostels\' mess food. </item>
+        <item>If you are a hosteller, there could be no better canteen suited for you other than JC. Situated incredibly close to the hostels, and just opposite the newborn McCain, it receives ample customers from hostels as well as fierce competition from its rival. It has got a great quality and amazing variety of food, which have earned it a fair amount of reputation among hostellers and day scholars alike.</item>
+    </string-array>
+
+    <string-array name="map_locs">
+        <item>http://goo.gl/maps/VNglK</item>
+        <item>https://maps.google.co.in/maps?q=Micmac,+Sector+3+Dwarka,+Matiala,+New+Delhi,+Delhi&amp;hl=en&amp;ll=28.609456,77.037023&amp;spn=0.008355,0.016512&amp;sll=28.606585,77.193283&amp;sspn=0.534702,1.056747&amp;oq=mic+mac&amp;hq=Micmac,+Sector+3+Dwarka,+Matiala,+New+Delhi,+Delhi&amp;t=m&amp;z=17</item>
+        <item>http://goo.gl/maps/PPJES</item>
+        <item>http://goo.gl/maps/zyL5m</item>
+        <item>http://goo.gl/maps/zyL5m</item>
+    </string-array>
+
+    <string-array name="canteen_pics">
+        <item>zayca</item>
+        <item>micmac</item>
+        <item>minizayca</item>
+        <item>mccain</item>
+        <item>justcafe</item>
+    </string-array>
+
+    <string-array name="list_desc">
+        <item>Arguably the king of all canteens in NSIT, this is where you will the taste the best.</item>
+        <item>A spacious and open restaurant with great food and very close to the admin, it\'s hard to miss out on this.</item>
+        <item>Small food court with a tiny menu and nice scenery for occasional get-togethers with buddies.</item>
+        <item>A new kid on the block, but has become quite popular among hostellers for its service.</item>
+        <item>Hostellers\' favorite canteen, thanks to its amazing food, and a strong competitor to McCain.</item>
+    </string-array>
+
+    <string-array name="contact_no">
+        <item>9810446419</item>
+        <item>9211268949</item>
+        <item>9810446419</item>
+        <item>9911904464</item>
+        <item>9873193336</item>
+    </string-array>
+    
+
+</resources>

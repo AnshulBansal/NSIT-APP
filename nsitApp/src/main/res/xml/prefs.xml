@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+   <ListPreference
+        android:entries="@array/list"
+        android:entryValues="@array/Lvalues"
+        android:key="List"
+        android:summary="Choose group to get updates "
+        android:title="SIG" >
+    </ListPreference>
+    
+   <ListPreference
+        android:entries="@array/Yearlist"
+        android:entryValues="@array/yearvalues"
+        android:key="ttyear"
+        android:summary="Choose year "
+        android:title="TimeTable" >
+    </ListPreference>
+    
+   <ListPreference
+        android:entries="@array/branchlist"
+        android:entryValues="@array/branchvalues"
+        android:key="ttbranch"
+        android:summary="Choose Branch "
+        android:title="TimeTable" >
+    </ListPreference>
+    <ListPreference
+        android:entries="@array/sectionlist"
+        android:entryValues="@array/sectionvalues"
+        android:key="ttsection"
+        android:summary="Choose Section "
+        android:title="Timetable" >
+    </ListPreference>
+     <ListPreference
+        android:entries="@array/AutoUpdateTime"
+        android:entryValues="@array/Timevalues"
+        android:key="Timedelay"
+        android:summary="Change Time Interval of AutoUpdate"
+        android:title="AutoUpdate" >
+    </ListPreference>
+       <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pushexam"
+        android:title="Push Notification" />
+
+    
+
+</PreferenceScreen>

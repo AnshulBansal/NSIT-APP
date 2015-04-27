@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <HorizontalScrollView
+            android:layout_width="340dp"
+            android:layout_height="230dp"
+            android:id="@+id/horizontalScrollView"
+            android:focusableInTouchMode="false" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" android:layout_gravity="center_horizontal">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="230dp"
+                    android:id="@+id/canteen_pic" android:focusable="false"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View
+            android:id="@+id/border"
+            android:layout_width="350dp"
+            android:layout_height="3dp"
+            android:background="@drawable/border1"
+            android:layout_alignParentTop="true" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"/>
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="240dp"
+            android:id="@+id/scrollView"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp" android:layout_centerHorizontal="true" android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView android:id="@+id/canteen_label"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="25sp"
+                      android:padding="10dp"
+                      android:text="Zayca Canteen" android:textStyle="bold|italic" android:capitalize="characters"
+                      android:gravity="center_horizontal" android:textIsSelectable="false"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Zayca Canteen lately holds  the crown of being the best food court in the NSIT Campus. Stellar food, excellent service and neat conditions rightfully earns it the title. The Zayca has a wide menu of food items ranging anywhere from mouth watering chinese chicken noodles to ekdum desi cholle bhature. This food court is loved by NSITiians, most of the time it becomes very hard to even get a seat and have a hearty meal. If you want to taste the best of NSIT, look no further than THE Zayca."
+                    android:id="@+id/canteen_desc" android:gravity="fill_horizontal"
+                    android:layout_marginBottom="20dp" android:textSize="13sp" android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <View
+            android:id="@+id/border"
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="@drawable/border2"
+            android:layout_alignParentTop="true" android:layout_gravity="center_horizontal"
+            />
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="320dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+        <Button
+                android:layout_width="140dp"
+                android:layout_height="35dp"
+                android:text="Show on map"
+                android:id="@+id/sonmap" android:textSize="12sp"
+                android:layout_centerHorizontal="true" android:layout_below="@+id/scrollView"
+                android:layout_weight="1" android:layout_margin="0dp"
+                />
+        <Button
+                android:layout_width="140dp"
+                android:layout_height="35dp"
+                android:text="Get the menu"
+                android:id="@+id/gtmenu" android:textSize="12sp"
+                android:layout_weight="1" android:layout_margin="0dp"
+                />
+        <Button
+
+                android:layout_width="140dp"
+                android:layout_height="35dp"
+                android:text="Contact Now"
+                android:id="@+id/contactnw" android:textSize="12sp"
+                android:layout_weight="1" android:layout_margin="0dp"
+                />
+    </LinearLayout>
+</LinearLayout>

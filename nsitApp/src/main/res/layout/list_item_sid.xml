@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Single List Item Design -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="105dp" android:focusable="false" android:paddingBottom="10dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/bg_card"
+            android:layout_marginTop="5dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/label" android:textStyle="bold" android:textSize="15sp"
+                android:layout_marginBottom="5dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text=""
+                android:id="@+id/list_desc" android:textSize="14sp"/>
+        <View
+                android:id="@+id/border"
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:background="@drawable/border1"
+                android:layout_alignParentTop="true" android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="20dp"
+    android:background="#DADAD9" >
+
+    <ImageView
+        android:id="@+id/iconnavig"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:background="#87C032"
+        android:src="@drawable/directory2"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="1px"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/iconnavig"
+        android:layout_alignBottom="@+id/iconnavig"
+        android:layout_toRightOf="@+id/iconnavig"
+        >
+        
+    </TextView>
+        
+    <TextView
+        android:id="@+id/titlenavig"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/iconnavig"
+        android:layout_alignBottom="@+id/iconnavig"
+        android:layout_toRightOf="@+id/blank"
+        android:paddingBottom="10dp"
+        android:background="#87C032"
+        android:paddingTop="15dp"
+        android:text="Directory"
+        android:paddingLeft="10dp"
+        android:paddingRight="40dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anshul.nsitapp"
+    android:installLocation="auto"
+    android:versionCode="15"
+    android:versionName="2.2.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/Theme.Example" >
+        <activity
+            android:name="com.example.nsitapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.splash" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.PlayVideo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.play" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.SampleActivity"
+            android:label="Simple Sample" >
+            <intent-filter>
+                <action android:name="android.intent.action.item1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.MenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.menuactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.SampleActionbarActivity"
+            android:label="Sample With Actionbar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.Timetable"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.timetable" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.ItemView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.item" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.prefs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.Directory"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.directory" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.ImageView1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.imageview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.Help"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.help" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.AboutNsit"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.about" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.Latest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.latest" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.Helper"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.CanteenList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Canteen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.CanteenView"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.CanteenMenuView"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.Societies"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Societies" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nsitapp.VideoActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.videoactivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.example.nsitapp.UpdaterService" >
+        </service>
+
+        <receiver android:name="com.example.nsitapp.ConnectivityChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
